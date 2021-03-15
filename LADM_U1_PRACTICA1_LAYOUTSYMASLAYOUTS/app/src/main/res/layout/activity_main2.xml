@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/amarillitopan"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="238dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/cinco" />
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="309dp"
+        android:layout_gravity="center"
+        android:text="TIPS\nTO BUILD A\nLANGUAGE\nLEARNING HABIT"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:fontFamily="casual"
+            android:text="+ free\nNewHabit\nTracker!"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="147dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/hojass" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
