@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "LADM_PRACTICA2_ArchivosMemoriaInternayExterna"
